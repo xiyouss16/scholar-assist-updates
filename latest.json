@@ -1,11 +1,11 @@
 {
-  "version": "0.3.4",
-  "notes": "修复 Google Scholar 浏览器辅助自动翻页和按相关性阈值读取数量；更新源切换到公开镜像仓库，源码仓库继续保持私有。",
-  "pub_date": "2026-06-05T03:00:30.863Z",
+  "version": "0.3.5",
+  "notes": "修复桌面 App 更新或重启后 Python 后端未随 App 自动启动，导致浏览器辅助搜索 Load failed 的问题；后端现随 App 自动启动并随 App 退出关闭。",
+  "pub_date": "2026-06-05T03:17:07.901Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUTkFObVMwYm9PWTVENy9KOXNIMjR2MjVPTllmUWFVNXFuWVJIWVM1VUF6U3NLdVVpNTNTTmxkVG1KVGtYdUYzM2oxMGQvbC94Vld2WlcyUmJlMHF4S3lDbFpaYjRwVVFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgwNjI4NDExCWZpbGU6U2Nob2xhciBBc3Npc3QuYXBwLnRhci5negplbUdxbkFZRmFxQTFndEF4YlIzQVQ2SWpiY2JYNXkzcWFvUXVsMnIyRGpKQUxLcW1Ibmo5bkNxRjhzRkFCamdiTEZaY0oxTHNLVWJSUFJ6WTFNOW5BQT09Cg==",
-      "url": "https://github.com/xiyouss16/scholar-assist-updates/releases/download/v0.3.4/Scholar.Assist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUTkFObVMwYm9PWTBaTmRoQzI2OFNJRlhmdkhTVkZLd3VNR0RNVFZRU3krQ1ByMkdQTFRTR0cxMGZaMkcybG84ZTdJNWJ6SmJsOUQ1Yk9ReE9HMzBzaERyczN0SzhSSndNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgwNjI5MzMzCWZpbGU6U2Nob2xhciBBc3Npc3QuYXBwLnRhci5negpkTDdKTWtZMWpkS056akhNeFRabERQRmVzUzFKV2JUbVpGcXY0OUxyVnoyUmZHMVFsbjJHMGF3UTArSnhmdmhoTGZWQVlzMXpReVo1NUVlZGc5T3hEUT09Cg==",
+      "url": "https://github.com/xiyouss16/scholar-assist-updates/releases/download/v0.3.5/Scholar.Assist.app.tar.gz"
     }
   }
 }
