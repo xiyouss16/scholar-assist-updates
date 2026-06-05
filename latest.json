@@ -1,11 +1,11 @@
 {
-  "version": "0.3.5",
-  "notes": "修复桌面 App 更新或重启后 Python 后端未随 App 自动启动，导致浏览器辅助搜索 Load failed 的问题；后端现随 App 自动启动并随 App 退出关闭。",
-  "pub_date": "2026-06-05T03:17:07.901Z",
+  "version": "0.3.6",
+  "notes": "修复 Google Scholar 浏览器辅助经常只导入第一页 10 条的问题：相关度按页缓慢衰减，翻页优先点击页面链接；页面正在导航时会重试读取。若 Google 在第 2 页触发验证，人工完成后可继续读取后续页。",
+  "pub_date": "2026-06-05T03:34:16.724Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUTkFObVMwYm9PWTBaTmRoQzI2OFNJRlhmdkhTVkZLd3VNR0RNVFZRU3krQ1ByMkdQTFRTR0cxMGZaMkcybG84ZTdJNWJ6SmJsOUQ1Yk9ReE9HMzBzaERyczN0SzhSSndNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgwNjI5MzMzCWZpbGU6U2Nob2xhciBBc3Npc3QuYXBwLnRhci5negpkTDdKTWtZMWpkS056akhNeFRabERQRmVzUzFKV2JUbVpGcXY0OUxyVnoyUmZHMVFsbjJHMGF3UTArSnhmdmhoTGZWQVlzMXpReVo1NUVlZGc5T3hEUT09Cg==",
-      "url": "https://github.com/xiyouss16/scholar-assist-updates/releases/download/v0.3.5/Scholar.Assist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUTkFObVMwYm9PWXo1ZUVBVlQ4alZRL2JJWTJ0ZmMyaXZXcURkZmREbm4xQzVHQUlLRVcxM0VrcHVpMVpqVUhPYzgvQ1pac2RkcTJiR0tkYzB5ZG1LZDVJRm1TL29Xa2c0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgwNjMwMzgxCWZpbGU6U2Nob2xhciBBc3Npc3QuYXBwLnRhci5negpLMUlJZS83WlF1UGlSSEJ3bjFlSzh6ZmZoeGdRUFZaOE42S01pMmxhK2Y4R08vOUNRM2Y5Ky9KVTFUaTZYRXRPVWhVS2MvdW1YeVQ0cFNQM0Q1cmZDUT09Cg==",
+      "url": "https://github.com/xiyouss16/scholar-assist-updates/releases/download/v0.3.6/Scholar.Assist.app.tar.gz"
     }
   }
 }
