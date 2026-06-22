@@ -1,11 +1,11 @@
 {
-  "version": "0.3.7",
-  "notes": "浏览器辅助升级为任务式采集：保存累计页数、导入数、当前查询和日志；新增最低相关度、目标条数、最多页数、验证后自动继续；验证码后恢复页面会自动继续读取。",
-  "pub_date": "2026-06-05T07:22:45.077Z",
+  "version": "0.4.4",
+  "notes": "Scholar Assist v0.4.4：重置 updater key，恢复后续自动更新签名链。旧版本需先手动安装本版本 DMG。",
+  "pub_date": "2026-06-22T02:57:44.266Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUTkFObVMwYm9PWTRyWm5xbllQcHZKenFDOUpzckw2TWlBbUs2VnJOL1ozR01WVVdQaG8xTDNZWjdHTk9LRGJHRlpldTJkWWxPSlpEL1hRd3lrNnJib0JEVUxoRjlia1FJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgwNjQ0MTQ0CWZpbGU6U2Nob2xhciBBc3Npc3QuYXBwLnRhci5negpKNjRtTlFYNi9odlQ5ZzAzekNoT1pudWs2b3ZjMk13aGJ5eFhBLzhZVXFIS0pxelF4L1hwVm1DTEI3TGprVmtDdjJLZEFsN2RET0lLTXBHNURWcmlEdz09Cg==",
-      "url": "https://github.com/xiyouss16/scholar-assist-updates/releases/download/v0.3.7/Scholar.Assist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRcVVlY3c1UStFUGxEQzJHbDdGd013ZFlueGMybkZrV3RaK3ZRNlU3RjFCaGZ2bTNUdzNkNzB4Uis4Y2ZFV1FvYVR4a2ZCNmt6Y21zOVdva3FJdmpyd1A2bWI0bS85NFFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyMDk2OTI3CWZpbGU6U2Nob2xhciBBc3Npc3QuYXBwLnRhci5nego4akNDbGNETTlLakJ2eXVmc01kVjN3aHp6MUxNNnFYenRSKzc1Nnp3TjFVZzBCcDJFa1gxa040TEx6MkJHdWRPTWtIWmlKNEU1eWhBazdwbml4K0NBdz09Cg==",
+      "url": "https://github.com/xiyouss16/scholar-assist/releases/download/v0.4.4/Scholar.Assist.app.tar.gz"
     }
   }
 }
