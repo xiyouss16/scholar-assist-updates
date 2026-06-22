@@ -1,11 +1,11 @@
 {
-  "version": "0.4.4",
-  "notes": "Scholar Assist v0.4.4：重置 updater key，恢复后续自动更新签名链。旧版本需先手动安装本版本 DMG。",
-  "pub_date": "2026-06-22T02:57:44.266Z",
+  "version": "0.4.5",
+  "notes": "Scholar Assist v0.4.5：修复创作模式启动崩溃。",
+  "pub_date": "2026-06-22T03:23:36.056Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRcVVlY3c1UStFUGxEQzJHbDdGd013ZFlueGMybkZrV3RaK3ZRNlU3RjFCaGZ2bTNUdzNkNzB4Uis4Y2ZFV1FvYVR4a2ZCNmt6Y21zOVdva3FJdmpyd1A2bWI0bS85NFFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyMDk2OTI3CWZpbGU6U2Nob2xhciBBc3Npc3QuYXBwLnRhci5nego4akNDbGNETTlLakJ2eXVmc01kVjN3aHp6MUxNNnFYenRSKzc1Nnp3TjFVZzBCcDJFa1gxa040TEx6MkJHdWRPTWtIWmlKNEU1eWhBazdwbml4K0NBdz09Cg==",
-      "url": "https://github.com/xiyouss16/scholar-assist/releases/download/v0.4.4/Scholar.Assist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRcVVlY3c1UStFUG10bVFIYlVpMXhXUWR5cW5CSmwrRWIvdDIxSitKcUczVU9hSWc4Z2dzSzgrM2J6Nkc1ZGpGWjdZYlQxM3JTL3pMNi9Wcm5yZlhUbFZNR2RleTVkRVFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyMDk4NDk3CWZpbGU6U2Nob2xhciBBc3Npc3QuYXBwLnRhci5negpkV0dhTUxOQm5uRHpmZmVYdUVudGNacjZXOWJCNzF3WStYaEhvRkVGcHpqREt2bjRaZVpnRFF6aXNJRSt6cnlOUGs0YjdPbG9MK0w1ZWRFTHkrYkdEZz09Cg==",
+      "url": "https://github.com/xiyouss16/scholar-assist/releases/download/v0.4.5/Scholar.Assist.app.tar.gz"
     }
   }
 }
