@@ -1,11 +1,11 @@
 {
   "version": "0.4.8",
   "notes": "v0.4.8 自动更新签名闭环版本：旋转 updater key，生成可用 .sig/latest.json，修复旧加密私钥密码遗失导致的自动更新发布阻塞。",
-  "pub_date": "2026-06-23T01:23:44.484Z",
+  "pub_date": "2026-06-23T01:26:26.980Z",
   "platforms": {
     "darwin-aarch64": {
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTenlwNFhNWEVodVYyY25lanhFcWRvK241N3BCcXpqcWMyTXJlbHRmOE1OcDJZcktqbHRnK2hYUGErSEY2NEduR2syQWFDbW4vUE8xYklOcmdXNlQ1bUo4cmlvZmc3R0FzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyMTc3ODI0CWZpbGU6U2Nob2xhciBBc3Npc3QuYXBwLnRhci5negp6VFNxV1FpMWlmQ2dDTjNhZ0RpcnRIV0piZHVZZGpNZXlUMkROTURCZUo2WXBRK1BPZ1BuaUJCZGFQQldEMnVETks1L0R2cDZJRUptdjZ2SlRkUWxDZz09Cg==",
-      "url": "https://github.com/xiyouss16/scholar-assist-updates/releases/download/v0.4.8/Scholar%20Assist.app.tar.gz"
+      "url": "https://github.com/xiyouss16/scholar-assist-updates/releases/download/v0.4.8/Scholar.Assist.app.tar.gz"
     }
   }
 }
