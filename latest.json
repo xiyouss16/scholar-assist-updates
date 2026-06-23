@@ -1,11 +1,11 @@
 {
-  "version": "0.4.6",
-  "notes": "Scholar Assist v0.4.6：产品化硬化，增强源数据阻断、浏览器辅助诊断、Zotero 标注证据、Word 插件文档和打包资源边界。",
-  "pub_date": "2026-06-22T08:09:29.370Z",
+  "version": "0.4.8",
+  "notes": "v0.4.8 自动更新签名闭环版本：旋转 updater key，生成可用 .sig/latest.json，修复旧加密私钥密码遗失导致的自动更新发布阻塞。",
+  "pub_date": "2026-06-23T01:23:44.484Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRcVVlY3c1UStFUGtmd2poUWNFc0lHWHhDL1hNaEg4dnE5dkkrenl6SGFuQjArYStNUDlyV1pwRi83dUs3RGI0dDNTWGdKbExsbUswOTlodUhCaDFoUVNWbkwxYUZnVnc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyMTE1NjI1CWZpbGU6U2Nob2xhciBBc3Npc3QuYXBwLnRhci5negpNbWEwY0hmdm5TcktXRE42cnlSQU5tQkVTdG54R1E2T2JnOVhIdUE1NVdEMi9lSlNTM0M3ekxKVEpLNjMvWThKU1hSQmo5K1pTdWJuSDMvbk4rN2pDZz09Cg==",
-      "url": "https://github.com/xiyouss16/scholar-assist/releases/download/v0.4.6/Scholar.Assist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTenlwNFhNWEVodVYyY25lanhFcWRvK241N3BCcXpqcWMyTXJlbHRmOE1OcDJZcktqbHRnK2hYUGErSEY2NEduR2syQWFDbW4vUE8xYklOcmdXNlQ1bUo4cmlvZmc3R0FzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyMTc3ODI0CWZpbGU6U2Nob2xhciBBc3Npc3QuYXBwLnRhci5negp6VFNxV1FpMWlmQ2dDTjNhZ0RpcnRIV0piZHVZZGpNZXlUMkROTURCZUo2WXBRK1BPZ1BuaUJCZGFQQldEMnVETks1L0R2cDZJRUptdjZ2SlRkUWxDZz09Cg==",
+      "url": "https://github.com/xiyouss16/scholar-assist-updates/releases/download/v0.4.8/Scholar%20Assist.app.tar.gz"
     }
   }
 }
