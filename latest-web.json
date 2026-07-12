@@ -1,13 +1,13 @@
 {
   "channel": "web",
-  "version": "0.6.1",
-  "notes": "v0.6.1 Web-first：恢复文献/创作双模式、稿件自动保存与版本恢复、文献操作反馈、PDF 工作区加固。",
-  "pub_date": "2026-07-12T09:19:58.339Z",
+  "version": "0.6.2",
+  "notes": "v0.6.2 Web 启动热修复：修复 Uvicorn 重载导入失败，并让 FRONTEND_PORT 与 Vite 实际监听地址严格一致。",
+  "pub_date": "2026-07-12T13:40:14.279Z",
   "archive": {
-    "name": "scholar-assist-web-v0.6.1.tar.gz",
-    "url": "https://raw.githubusercontent.com/xiyouss16/scholar-assist-updates/main/scholar-assist-web-v0.6.1.tar.gz",
-    "sha256": "e2a195bd472243dbb3fbfe4c5cae52926607e27c107d6789512ba92471a9420e",
-    "size": 1729578
+    "name": "scholar-assist-web-v0.6.2.tar.gz",
+    "url": "https://raw.githubusercontent.com/xiyouss16/scholar-assist-updates/main/scholar-assist-web-v0.6.2.tar.gz",
+    "sha256": "7d7cc65524f88ac0ab0343f1fb439ced7964388aabbac4326e260feaa2023d2f",
+    "size": 1519911
   },
   "install": {
     "docker": "docker compose up --build",
