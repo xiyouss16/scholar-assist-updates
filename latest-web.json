@@ -1,0 +1,65 @@
+{
+  "channel": "web",
+  "version": "0.6.1",
+  "notes": "v0.6.1 Web-first：恢复文献/创作双模式、稿件自动保存与版本恢复、文献操作反馈、PDF 工作区加固。",
+  "pub_date": "2026-07-12T09:19:58.339Z",
+  "archive": {
+    "name": "scholar-assist-web-v0.6.1.tar.gz",
+    "url": "https://raw.githubusercontent.com/xiyouss16/scholar-assist-updates/main/scholar-assist-web-v0.6.1.tar.gz",
+    "sha256": "e2a195bd472243dbb3fbfe4c5cae52926607e27c107d6789512ba92471a9420e",
+    "size": 1729578
+  },
+  "install": {
+    "docker": "docker compose up --build",
+    "docker_compose": "SCHOLAR_ASSIST_ACCESS_CODE=your-code docker compose up --build",
+    "local_backend": "cd backend && python3 main.py",
+    "local_frontend": "npm run web:dev",
+    "open_output_command": "npm run open:output -- <path-to-docx-or-pdf>",
+    "wps_or_libreoffice": "Open exported DOCX/PDF with WPS Office or LibreOffice when Microsoft Word is unavailable."
+  },
+  "platforms": {
+    "macos": {
+      "recommended": "npm run web:start",
+      "backend": "python3 backend/main.py",
+      "frontend": "npm run web:dev",
+      "open_output_command": "npm run open:output -- ~/Downloads/paper.docx"
+    },
+    "windows": {
+      "recommended": "npm run web:start",
+      "backend": "py -3 backend/main.py",
+      "frontend": "npm run web:dev",
+      "open_output_command": "npm run open:output -- C:\\\\Users\\\\you\\\\Downloads\\\\paper.docx",
+      "windows_guide": "docs/WINDOWS_WEB_GUIDE.md"
+    },
+    "linux": {
+      "recommended": "npm run web:start",
+      "backend": "python3 backend/main.py",
+      "frontend": "npm run web:dev",
+      "open_output_command": "npm run open:output -- ~/Downloads/paper.docx"
+    },
+    "docker": {
+      "docker_compose": "docker compose up --build",
+      "healthcheck": "GET /api/health",
+      "data_volume": "scholar-assist-data"
+    }
+  },
+  "security_env": [
+    "SCHOLAR_ASSIST_ACCESS_CODE",
+    "SCHOLAR_ASSIST_RATE_LIMIT_PER_MINUTE",
+    "SCHOLAR_ASSIST_CORS_ORIGINS",
+    "SCHOLAR_ASSIST_AI_PROVIDER",
+    "SCHOLAR_ASSIST_AI_API_KEY",
+    "SCHOLAR_ASSIST_AI_BASE_URL",
+    "SCHOLAR_ASSIST_AI_MODEL"
+  ],
+  "docs": {
+    "first_use": "docs/FIRST_USE_GUIDE.md",
+    "web_deployment": "docs/WEB_DEPLOYMENT.md",
+    "windows_guide": "docs/WINDOWS_WEB_GUIDE.md"
+  },
+  "smoke": {
+    "command": "npm run smoke:web",
+    "health_url": "http://127.0.0.1:8765/api/health"
+  },
+  "apple_developer_id_required": false
+}
